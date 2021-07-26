@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".secondFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/et_update"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="0dp">
+<!--        <LinearLayout-->
+<!--            android:layout_width="335dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center">-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="UPDATE PRICE"-->
+<!--                android:textSize="20dp"-->
+<!--                android:gravity="center"-->
+<!--                android:fontFamily="sans-serif-black"-->
+<!--                android:textColor="@color/black"-->
+<!--                />-->
+<!--            />-->
+<!--        </LinearLayout>-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/font_color"
+            android:layout_margin="1dp"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:text="COST"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/red"
+                />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="20dp"
+                android:background="@color/font_color"
+                />
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:text="PROFIT"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="@color/font_color"
+                android:fontFamily="sans-serif-black"
+                />
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/font_color"
+            android:layout_margin="2dp"
+            />
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/fs_cost_inspection"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="Cost of the Inspection"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/red" />
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inspection"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"/>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/document"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/fs_profit_inspection"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="profit in the Inspection"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/font_color" />
+            />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/font_color"
+            android:layout_margin="3dp"
+            />
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/fs_cost_tube_15"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="Cost of the Tube 1.5"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/red" />
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tube 1.5"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"/>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/tube"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/fs_profit_tube_15"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="profit in the Tube 1.5"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/font_color" />
+            />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/font_color"
+            android:layout_margin="3dp"
+            />
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/fs_cost_Tube_25"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="Cost of the Tube 2.5"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/red" />
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tube 2.5"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"/>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/tube"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/fs_profit_tube_25"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="profit in the Tube 2.5"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/font_color" />
+            />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/font_color"
+            android:layout_margin="3dp"
+            />
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/fs_cost_tube_35"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="Cost of the Tube 3.5"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/red" />
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tube 3.5"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"/>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/tube"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/fs_profit_tube_35"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="profit in the Tube 3.5"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/font_color" />
+            />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/font_color"
+            android:layout_margin="3dp"
+            />
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/fs_cost_tube_45"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="Cost of the Tube 4.5"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/red" />
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tube 4.5"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"/>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/tube"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/fs_profit_tube_45"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="profit in the Inspection"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/font_color" />
+            />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/font_color"
+            android:layout_margin="3dp"
+            />
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/fs_cost_clamp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="Cost of the Clamp"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/red" />
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clamp"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"/>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/clamp"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/fs_profit_clamp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="profit in the Clamp"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/font_color" />
+            />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/font_color"
+            android:layout_margin="3dp"
+            />
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/fs_cost_regulator"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="Cost of the Regulator"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/red" />
+
+            <LinearLayout
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Regulator"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"/>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/gauge"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/fs_profit_regulator"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="profit in the Regulator"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/font_color" />
+            />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/font_color"
+            android:layout_margin="3dp"
+            />
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/fs_cost_newConnection"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="Cost of the New Connection"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/red" />
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Connection"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"/>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/new_connection"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/fs_profit_newConnection"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="profit in the newConnection"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/font_color"
+                android:importantForAutofill="no" />
+            />
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/font_color"
+            android:layout_margin="1dp"
+            />
+        <LinearLayout
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:id="@+id/cost_submit"
+                android:backgroundTint="@color/common"
+                android:padding="5dp"
+                android:layout_margin="5dp"/>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/font_color"
+            android:layout_margin="1dp"
+            />
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
